@@ -54,7 +54,7 @@ public class Main {
         System.out.println();
 
         Double middleSumForkJoin = forkJoinPool.invoke(new MIddleArraySumByForkJoin(integers));
-        System.out.printf("Среднеарифметическое чисел массива, рассчитанных с применением fork join: %f\n", middle);
+        System.out.printf("Среднеарифметическое чисел массива, рассчитанное с применением fork join: %f\n", middle);
         System.out.printf("Время расчета: %d мс\n", time);
         System.out.println();
 
